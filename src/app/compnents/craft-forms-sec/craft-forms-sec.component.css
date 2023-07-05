@@ -1,0 +1,60 @@
+.craft_form {
+    padding: 94px 0;
+    background-image: url(../../../assets/home_imgae/spotify/counter-bg.webp);
+    background-color: #3e402d;
+    position: relative;
+}
+
+.left_sec .line {
+    width: 75px;
+    background: #cfc6b8;
+    height: 1px;
+    opacity: .5;
+    /* margin: 22px 0; */
+}
+
+.left_sec .form_heading h3 {
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    text-transform: unset;
+    color: #f9f2ea;
+    margin-bottom: 36px;
+    padding-top: 41px;
+    position: relative;
+}
+
+.left_sec .form_heading a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9f2ea;
+    text-decoration: none;
+    border-bottom: 1px solid #F9F2EA
+}
+
+.right_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f4ede5;
+    flex-direction: column;
+}
+
+.right_sec .number {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 77px;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+}
+
+.right_sec .text {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}

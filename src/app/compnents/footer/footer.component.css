@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    font-family: "FuturaPT-Book";
+}
+
+h1,
+h3,
+li {
+    color: rgb(245, 238, 230);
+    text-transform: capitalize;
+    /* align-items: center; */
+}
+
+
+.footer_top {
+    background: rgb(62, 64, 45);
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.payment_icons ul,
+.footer_left h1 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 10px; */
+}
+
+li {
+    list-style-type: none;
+}
+
+.payment_icons ul li img {
+    height: 16px;
+    /* width: 26px; */
+    margin-left: 10px;
+}
+
+.footer_bottom {
+    background: rgb(49, 51, 35);
+    font-size: large;
+    color: rgb(245, 238, 230);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.footer_bottom p a {
+    text-decoration: none;
+    color: rgb(245, 238, 230);
+}

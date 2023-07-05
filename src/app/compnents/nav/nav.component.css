@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "FuturaPT-Book";
+}
+
+nav {
+    background-color: rgb(249, 242, 234);
+    /* border: 2px solid red; */
+    box-shadow: 0 0 3px rgba(139, 113, 74, 0.12);
+    padding-left: 75px;
+}
+
+nav .container {
+    padding-left: 25px;
+    padding-right: 25px;
+    /* padding: 6px 0 8px; */
+}
+
+/* .nav ul {
+    align-items: center;
+} */
+
+.nav ul li {
+    text-transform: capitalize;
+    color: #93897a;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    padding: 1rem;
+    cursor: pointer;
+    transition: text-decoration 5s;
+
+}
+
+.list li:hover {
+    text-decoration: underline;
+}
+
+.nav ul li .bi {
+    font-weight: bold;
+    font-size: 1.25rem;
+}

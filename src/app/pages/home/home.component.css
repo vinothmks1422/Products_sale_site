@@ -1,0 +1,164 @@
+/* lrft section */
+.left_slider_sec {
+    background-image: url("../../../assets/home_imgae/left_background.webp");
+    background-color: #40422f;
+    width: 50%;
+    /* position: absolute; */
+    height: fit-content;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: cover;
+    /* margin-top: 3.5rem; */
+    padding-left: 75px;
+    padding-right: 140px;
+}
+
+.left_slider_sec img {
+    width: 200px;
+}
+
+.slider_tittle {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.slider_tittle h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 77px;
+    color: #f9f2ea;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    text-transform: unset;
+}
+
+.slider_content {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #f9f2ea;
+    margin-bottom: 40px;
+}
+
+.slider_btn {
+    padding-bottom: 5rem;
+}
+
+.slider_btn .button {
+    background: #313323;
+    border: 1px solid #313323;
+    padding: 12px 28px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* right section */
+
+.right_slider_sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    background: rgb(233, 226, 216);
+}
+
+.left_block {
+    padding: 5rem;
+}
+
+.block_info {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #27221d;
+    /* padding: 0; */
+}
+
+.block_heading {
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 50px;
+    color: #3e402d;
+    margin-bottom: 0;
+    text-align: left;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+    padding-bottom: 35px;
+}
+
+.block_detail {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #27221d;
+    /* padding-top: 35px; */
+    display: block;
+}
+
+.right_block {
+    background: url("../../../assets/home_imgae/block/background.webp") no-repeat;
+    background-position: right;
+    background-size: contain;
+    padding: 5.5rem;
+    /* width: 343px; */
+}
+
+.right_block .list:first-child {
+    margin-bottom: 25px;
+}
+
+.right_block .list .number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 77px;
+    color: #3e402d;
+    font-family: NYTMagSerifHeadlineWEB-Bold;
+}
+
+.right_block .list .text {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #3e402d;
+}
+
+/* card section */
+
+.card_sec {
+    background-color: rgb(249, 242, 234);
+}
+
+.heading_line {
+    position: relative;
+    padding-right: 100px;
+}
+
+.heading_line::after {
+    position: absolute;
+    content: "";
+    width: 100px;
+    background: #74490c;
+    height: 1px;
+    right: 120px;
+    top: 31px;
+    opacity: .5;
+}

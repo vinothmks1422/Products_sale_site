@@ -1,0 +1,206 @@
+<app-nav></app-nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="left_slider_sec col-6">
+            <div>
+                <img src="../../../assets/home_imgae/left_image.webp" alt="">
+            </div>
+            <div class="slider_tittle">
+                <h2>Embrace the <br> spirit of India</h2>
+            </div>
+            <div class="slider_content">
+                An unparalleled legacy that spans millennia. Pure, authentic craft sourced from artisans across the
+                Indian sub-continent. Our vast collection of over 80 different craft forms celebrates a heritage of some
+                of the world’s oldest handicrafts.
+            </div>
+            <div class="slider_btn">
+                <a class="button" href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="right_slider_sec col-6">
+            <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="1000">
+                        <img src="../../../assets/home_imgae/carousel/1.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../../../assets/home_imgae/carousel/2.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="1000">
+                        <img src="../../../assets/home_imgae/carousel/3.webp" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="left_block col-6">
+                <p class="block_info">Our Mission</p>
+                <h3 class="block_heading">Every purchase <br> has a purpose</h3>
+                <p class="block_detail">We have direct partnerships with over 320 Indian artisans and over 2000
+                    indirectly. As a social
+                    enterprise that seeks to offer a fair-trade platform, our primary purpose is to support handicraft
+                    workers. With each purchase you make, you can help make a difference.</p>
+            </div>
+            <div class="right_block col-6">
+                <div class="list">
+                    <span class="number">21+</span>
+                    <span class="text">STATES</span>
+                </div>
+                <div class="list">
+                    <span class="number">2000</span>
+                    <span class="text">INDIAN ARTISANS</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For this season</p>
+            <h3 class="block_heading heading_line">Trending & New</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<app-craft-forms-sec></app-craft-forms-sec>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For Women</p>
+            <h3 class="block_heading heading_line">Choices for <br> the season</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of women_products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-8">
+            <img src="../../../assets/home_imgae/cart_images/17.webp" alt="">
+        </div>
+        <div class="col-4">
+            <img src="/assets/home_imgae/cart_images/18.webp" alt="">
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For the home</p>
+            <h3 class="block_heading heading_line">Where the heart <br> resides</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of home_products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<div class="container-fluid  card_sec">
+    <div class="row">
+        <div class="left_block col-6">
+            <p class="block_info">In focus</p>
+            <h3 class="block_heading">The world’s <br> oldest craft form</h3>
+            <p class="block_detail">Dhokra Metal Craft. Dhokra is amongst the oldest traditional techniques of metal
+                casting in India, practiced for over 4,000 years, said to date back to the era of the Indus Valley
+                Civilisation. The lost wax technique or ‘cire-perdue’ has been the medium of metal workers in Madhya
+                Pradesh, Chhattisgarh, Orissa and West Bengal. Entirely handcrafted, the unique 13-stage process of
+                Dhokra /Bell-metal making today, is an outcome of the original craft instinct handed down through
+                the centuries. Dhokra or Bell metal is an alloy of brass, and other metals that impart an antique
+                effect to the castings.</p>
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+        <div class="col-6 d-flex justify-content-between align-items-center">
+            <div class="row py-5">
+                <div class="col-6 text-center" *ngFor="let x of focus_products">
+                    <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For Men</p>
+            <h3 class="block_heading heading_line">Things for Men</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of men_products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For Children</p>
+            <h3 class="block_heading heading_line">The wonder of <br> the growing years</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of clild_products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<div class="container-fluid card_sec">
+    <div class="row px-5 pt-5 d-flex align-items-center">
+        <div class="col-6">
+            <p class="block_info">For Work</p>
+            <h3 class="block_heading heading_line">Work in style</h3>
+        </div>
+        <div class="col-6 text-end">
+            <app-site-btn [text]="text"></app-site-btn>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-around p-5">
+        <div class="col-3 text-center " *ngFor="let x of workStyle_products">
+            <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
+        </div>
+    </div>
+</div>
+<app-bulk-order></app-bulk-order>
+<app-explore-collec></app-explore-collec>
+<app-footer></app-footer>
+
+
+<img src="" alt="">

@@ -1,0 +1,27 @@
+:host {
+    display: inline-block;
+}
+
+.site-btn {
+    border: 1px solid #313323;
+    padding: 12px 28px;
+    display: inherit;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn2:hover {
+    /* margin-right: 10px; */
+    background: #313323;
+    color: #fff;
+}
+
+.btn2 {
+    background: transparent;
+    color: #27221d;
+    transition: all 0.3s ease;
+
+}

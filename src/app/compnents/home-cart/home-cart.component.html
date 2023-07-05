@@ -1,0 +1,15 @@
+<div class="cart pertfect_center">
+    <div class="cart_image">
+        <img [src]="images" alt="">
+        <div class="fav_icon perfect_center"><i class="bi bi-heart"></i></div>
+    </div>
+    <div>
+        <div class="line"></div>
+    </div>
+    <div class="cart_detail">
+        <p>{{detail}}</p>
+    </div>
+    <div class="cart_price text-center">
+        <p>{{price | currency : "INR":'symbol':'3.0' }} INR</p>
+    </div>
+</div>

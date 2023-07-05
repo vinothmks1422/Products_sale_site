@@ -1,0 +1,220 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "products": [
+    {
+      "amount": 3480,
+      "image": "/assets/home_imgae/cart_images/product_image/1.webp",
+      "details": "Occasion Wear. Georgette Lehariya Kurta Set With Beadwork - Royal..."
+    },
+    {
+      "amount": 3120,
+      "image": "/assets/home_imgae/cart_images/product_image/2.webp",
+      "details": "Indigo Blue Decorative Wall Plate (Set of 2) - Indigo Blue Lotus"
+    },
+    {
+      "amount": 2490,
+      "image": "/assets/home_imgae/cart_images/product_image/3.webp",
+      "details": "Handwoven, Organic Kala Cotton Shirt - Grey"
+    },
+    {
+      "amount": 7590,
+      "image": "/assets/home_imgae/cart_images/product_image/4.webp",
+      "details": "Pure Silver Traditional Maharashtrian Neckpiece - Taramndal"
+    },
+    {
+      "amount": 36930,
+      "image": "/assets/home_imgae/cart_images/product_image/5.webp",
+      "details": "Exclusive Handwoven Kilim Rug (8 x 5 ft)"
+    },
+    {
+      "amount": 1330,
+      "image": "/assets/home_imgae/cart_images/product_image/6.webp",
+      "details": "Marble Inlay Round Plate Curio with Stand"
+    },
+    {
+      "amount": 7850,
+      "image": "/assets/home_imgae/cart_images/product_image/7.webp",
+      "details": "Elegance in Linen. Pure Handwoven Linen Saree - Black & Dull Gold (BP)"
+    },
+    {
+      "amount": 3110,
+      "image": "/assets/home_imgae/cart_images/product_image/8.webp",
+      "details": "Elegance in Linen. Pure Handwoven Linen Saree - Black & Dull Gold (BP)"
+    }
+  ],
+  "women_products": [
+    {
+      "amount": 3710,
+      "image": "/assets/home_imgae/cart_images/women_products_image/9.webp",
+      "details": "Sanganeri Block Printed Chanderi Slip Kurta Set With Beadwork - Wine Leaves"
+    },
+    {
+      "amount": 1700,
+      "image": "/assets/home_imgae/cart_images/women_products_image/10.webp",
+      "details": "Lambani Tribal Neckpiece - Chanda Titri"
+    },
+    {
+      "amount": 2530,
+      "image": "/assets/home_imgae/cart_images/women_products_image/11.webp",
+      "details": "Handknotted Crochet Tote Bag - Round, White & Yellow"
+    },
+    {
+      "amount": 3020,
+      "image": "/assets/home_imgae/cart_images/women_products_image/12.webp",
+      "details": "Bagru Block Printed & Running Stitch Kurta & Pants - Blue Peacocks"
+    },
+    {
+      "amount": 3110,
+      "image": "/assets/home_imgae/cart_images/women_products_image/13.webp",
+      "details": "Elegance in Linen. Handwoven Linen Saree - Dark Pink & Dull Gold Butis"
+    },
+    {
+      "amount": 1593,
+      "image": "/assets/home_imgae/cart_images/women_products_image/14.webp",
+      "details": "Bagru Block Printed & Beadwork Cotton Wrap Skirt & Sleeveless Top..."
+    },
+    {
+      "amount": 2710,
+      "image": "/assets/home_imgae/cart_images/women_products_image/15.webp",
+      "details": "Exclusive, Fine Kashmiri Hand Embroidered Chanderi Kurta / Dre..."
+    },
+    {
+      "amount": 2830,
+      "image": "/assets/home_imgae/cart_images/women_products_image/16.webp",
+      "details": "Fine, Soft Himachal Wool Stole With Woven Border"
+    }
+  ],
+  "home_products": [
+    {
+      "amount": 3350,
+      "image": "/assets/home_imgae/cart_images/home_products_image/1.webp",
+      "details": "Tambat Handbeaten Copper Tumblers (Set of 6)"
+    },
+    {
+      "amount": 7150,
+      "image": "/assets/home_imgae/cart_images/home_products_image/2.webp",
+      "details": "Kalighat Painting With Mount - The Couple (25 x 17)"
+    },
+    {
+      "amount": 3920,
+      "image": "/assets/home_imgae/cart_images/home_products_image/3.webp",
+      "details": "Dhokra Craft Curio - Farmer"
+    },
+    {
+      "amount": 1510,
+      "image": "/assets/home_imgae/cart_images/home_products_image/4.webp",
+      "details": "Handwoven Jute Table Runner & Mats (Set of 5) - Dull Mustard & Rust"
+    },
+    {
+      "amount": 1950,
+      "image": "/assets/home_imgae/cart_images/home_products_image/5.webp",
+      "details": "Kashmiri Crewel Work Cushion Covers - Moroccan Appeal, (Set of..."
+    },
+    {
+      "amount": 2750,
+      "image": "/assets/home_imgae/cart_images/home_products_image/6.webp",
+      "details": "Handcrafted Sabai Grass Laundry Basket"
+    },
+    {
+      "amount": 1520,
+      "image": "/assets/home_imgae/cart_images/home_products_image/7.webp",
+      "details": "Coconut Craft Table Lamp"
+    },
+    {
+      "amount": 680,
+      "image": "/assets/home_imgae/cart_images/home_products_image/8.webp",
+      "details": "Bastar Tribal Art - Candle Holders - Deer (Set of 2)"
+    }
+  ],
+  "men_products": [
+    {
+      "amount": 1131,
+      "image": "/assets/home_imgae/cart_images/men_products_image/1.webp",
+      "details": "Summer Breeze - Tie & Dye Cotton Shirt - Dull Blue"
+    },
+    {
+      "amount": 2520,
+      "image": "/assets/home_imgae/cart_images/men_products_image/2.webp",
+      "details": "Handcrafted Leather Cross Body Bag With Hand Stitch Detail"
+    },
+    {
+      "amount": 3460,
+      "image": "/assets/home_imgae/cart_images/men_products_image/3.webp",
+      "details": "Rugged Leather Duffler Bag (Length-22 inch)"
+    },
+    {
+      "amount": 2890,
+      "image": "/assets/home_imgae/cart_images/men_products_image/4.webp",
+      "details": "Organic Kala Cotton Shirt - Off White"
+    }
+  ],
+  "focus_products": [
+    {
+      "amount": 4740,
+      "image": "/assets/home_imgae/cart_images/focus-1.webp",
+      "details": "Dhokra Metal Craft Curio - Village Woman"
+    },
+    {
+      "amount": 3900,
+      "image": "/assets/home_imgae/cart_images/focus-2.webp",
+      "details": "Dhokra Metal Craft Curio - Bullock Cart"
+    }
+  ],
+  "chlid_products": [
+    {
+      "amount": 1810,
+      "image": "/assets/home_imgae/cart_images/clild_products_image/1.webp",
+      "details": "Handcrafted Snakes & Ladders Board Game"
+    },
+    {
+      "amount": 180,
+      "image": "/assets/home_imgae/cart_images/clild_products_image/2.webp",
+      "details": "Jute Craft - Doll Keychain (Set of 2)"
+    },
+    {
+      "amount": 1390,
+      "image": "/assets/home_imgae/cart_images/clild_products_image/3.webp",
+      "details": "Handcrafted Wooden Puzzles With Box (Set of 3)"
+    },
+    {
+      "amount": 330,
+      "image": "/assets/home_imgae/cart_images/clild_products_image/4.webp",
+      "details": "Handcrafted Wooden Kit Kat Sound Toy - Twirling Elephant"
+    }
+  ],
+  "work_style_products": [
+    {
+      "amount": 2550,
+      "image": "/assets/home_imgae/cart_images/work_style_products_image/1.webp",
+      "details": "Bidri Craft Set - Paper Cutter & Paper Weight"
+    },
+    {
+      "amount": 1790,
+      "image": "/assets/home_imgae/cart_images/work_style_products_image/2.webp",
+      "details": "Dhokra Craft Stationery Stand, The Web"
+    },
+    {
+      "amount": 1680,
+      "image": "/assets/home_imgae/cart_images/work_style_products_image/3.webp",
+      "details": "Handcrafted Leather Diary with Cutwork - Tan & Multicolored"
+    },
+    {
+      "amount": 2700,
+      "image": "/assets/home_imgae/cart_images/work_style_products_image/4.webp",
+      "details": "Phad Art - Desk Set (Set of 2)"
+    }
+  ]
+}
