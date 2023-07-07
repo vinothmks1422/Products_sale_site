@@ -1,7 +1,7 @@
 <app-nav></app-nav>
 <div class="container-fluid">
     <div class="row">
-        <div class="left_slider_sec col-6">
+        <div class="left_slider_sec col-sm-12 col-md-6 col-lg-6">
             <div>
                 <img src="../../../assets/home_imgae/left_image.webp" alt="">
             </div>
@@ -17,7 +17,7 @@
                 <a class="button" href="#">Shop Now</a>
             </div>
         </div>
-        <div class="right_slider_sec col-6">
+        <div class="right_slider_sec col-sm-12 col-md-6 col-lg-6">
             <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="1000">
@@ -47,7 +47,7 @@
 <div class="block">
     <div class="container-fluid">
         <div class="row">
-            <div class="left_block col-6">
+            <div class="left_block col-sm-12 col-md-6 col-lg-6">
                 <p class="block_info">Our Mission</p>
                 <h3 class="block_heading">Every purchase <br> has a purpose</h3>
                 <p class="block_detail">We have direct partnerships with over 320 Indian artisans and over 2000
@@ -55,7 +55,7 @@
                     enterprise that seeks to offer a fair-trade platform, our primary purpose is to support handicraft
                     workers. With each purchase you make, you can help make a difference.</p>
             </div>
-            <div class="right_block col-6">
+            <div class="right_block col-sm-12 col-md-6 col-lg-6">
                 <div class="list">
                     <span class="number">21+</span>
                     <span class="text">STATES</span>
@@ -70,16 +70,16 @@
 </div>
 <div class="container-fluid card_sec">
     <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <p class="block_info">For this season</p>
             <h3 class="block_heading heading_line">Trending & New</h3>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-end">
             <app-site-btn [text]="text"></app-site-btn>
         </div>
     </div>
-    <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of products">
+    <div class="row justify-content-around p-5">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center" *ngFor="let x of products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
@@ -87,49 +87,53 @@
 <app-craft-forms-sec></app-craft-forms-sec>
 <div class="container-fluid card_sec">
     <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <p class="block_info">For Women</p>
             <h3 class="block_heading heading_line">Choices for <br> the season</h3>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-end">
             <app-site-btn [text]="text"></app-site-btn>
         </div>
     </div>
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of women_products">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center " *ngFor="let x of women_products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
 </div>
 <div class="container-fluid card_sec">
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-8">
+        <div class="col-12 col-md-6 col-lg-8">
             <img src="../../../assets/home_imgae/cart_images/17.webp" alt="">
         </div>
-        <div class="col-4">
+        <div class="col-12 col-md-6 col-lg-4">
             <img src="/assets/home_imgae/cart_images/18.webp" alt="">
         </div>
     </div>
 </div>
 <div class="container-fluid card_sec">
-    <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
-            <p class="block_info">For the home</p>
-            <h3 class="block_heading heading_line">Where the heart <br> resides</h3>
-        </div>
-        <div class="col-6 text-end">
-            <app-site-btn [text]="text"></app-site-btn>
+    <div class="row justify-content-center">
+        <div class="col-md-11">
+            <div class="row align-items-center">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <p class="block_info">For the home</p>
+                    <h3 class="block_heading heading_line">Where the heart <br> resides</h3>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-end">
+                    <app-site-btn [text]="text"></app-site-btn>
+                </div>
+            </div>
         </div>
     </div>
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of home_products">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center " *ngFor="let x of home_products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
 </div>
 <div class="container-fluid  card_sec">
     <div class="row">
-        <div class="left_block col-6">
+        <div class="left_block col-12 col-lg-6">
             <p class="block_info">In focus</p>
             <h3 class="block_heading">The world’s <br> oldest craft form</h3>
             <p class="block_detail">Dhokra Metal Craft. Dhokra is amongst the oldest traditional techniques of metal
@@ -143,7 +147,7 @@
         </div>
         <div class="col-6 d-flex justify-content-between align-items-center">
             <div class="row py-5">
-                <div class="col-6 text-center" *ngFor="let x of focus_products">
+                <div class="col-12 col-lg-6 text-center" *ngFor="let x of focus_products">
                     <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
                 </div>
             </div>
@@ -152,48 +156,48 @@
 </div>
 <div class="container-fluid card_sec">
     <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <p class="block_info">For Men</p>
             <h3 class="block_heading heading_line">Things for Men</h3>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-end">
             <app-site-btn [text]="text"></app-site-btn>
         </div>
     </div>
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of men_products">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center " *ngFor="let x of men_products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
 </div>
 <div class="container-fluid card_sec">
     <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <p class="block_info">For Children</p>
             <h3 class="block_heading heading_line">The wonder of <br> the growing years</h3>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-end">
             <app-site-btn [text]="text"></app-site-btn>
         </div>
     </div>
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of clild_products">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center " *ngFor="let x of clild_products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
 </div>
 <div class="container-fluid card_sec">
     <div class="row px-5 pt-5 d-flex align-items-center">
-        <div class="col-6">
+        <div class="col-sm-12 col-md-6 col-lg-6">
             <p class="block_info">For Work</p>
             <h3 class="block_heading heading_line">Work in style</h3>
         </div>
-        <div class="col-6 text-end">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-end">
             <app-site-btn [text]="text"></app-site-btn>
         </div>
     </div>
     <div class="row d-flex justify-content-around p-5">
-        <div class="col-3 text-center " *ngFor="let x of workStyle_products">
+        <div class="col-sm-6 col-md-6 col-lg-3 text-center " *ngFor="let x of workStyle_products">
             <app-home-cart [price]="x.amount" [images]="x.image" [detail]="x.details"></app-home-cart>
         </div>
     </div>
@@ -201,6 +205,3 @@
 <app-bulk-order></app-bulk-order>
 <app-explore-collec></app-explore-collec>
 <app-footer></app-footer>
-
-
-<img src="" alt="">

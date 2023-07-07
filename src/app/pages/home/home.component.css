@@ -1,6 +1,6 @@
 /* lrft section */
 .left_slider_sec {
-    background-image: url("../../../assets/home_imgae/left_background.webp");
+    background-image: url("/assets/home_imgae/left_background.webp");
     background-color: #40422f;
     width: 50%;
     /* position: absolute; */
